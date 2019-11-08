@@ -20,10 +20,10 @@ public class User {
 //    AUTO：主键由程序控制
     @Column(name = "id")
     @Getter @Setter
-    int id;
+    private int id;
     @Getter @Setter
-    String username;
+    private String username;
     @Getter @Setter
-    String password;
+    private String password;
 }
 
